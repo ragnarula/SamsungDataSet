@@ -1,7 +1,6 @@
 # Code Book - Samsung Smartphone Activity Data
 
-This dataset contains data derived from raw data collected from the accelerometers and gyroscope of 
-Samsung Galaxy S smartphones. The original data was obrained from the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+This dataset contains data derived from raw data collected from the accelerometers and gyroscope of Samsung Galaxy S smartphones. The original data was obtained from the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 The following columns were extracted from the original dataset:
 
