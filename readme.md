@@ -26,7 +26,7 @@ The script, when sourced, loads a function called run_analysis in to the environ
 
 e.g.
 
-'''Working Directory/
+```Working Directory/
  |    run_analysis.R
  | 
  |-----UCI HAR Dataset/
@@ -34,7 +34,7 @@ e.g.
         |    ....
         |----test/
         |----train/
-        ...'''
+        ...```
 
 If this is not the case, you can provide a full or relative path to the dataet folder.
 
