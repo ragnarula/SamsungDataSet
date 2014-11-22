@@ -45,7 +45,7 @@ For convenience, and to save time, it would be best to store  the return value f
 data <- run_analysis()
 ```
 
-### Readind the tidy data set
+### Reading the tidy data set
 
 To read the tidy data set in R use the read.table command. e.g.
 
