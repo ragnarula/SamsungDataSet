@@ -16,13 +16,13 @@ Outlined below are the steps taken to tidy this data and some information on how
 
 ### Why this dats is tidy
 
-Column names are single variables. Previously, each column contained many attributes about the measurement in the heading. e.g. tBodyAcc-mean()-X meant time domain, body component, accelerometer, mean, X axis. All of this information is now in its own column, manking subsetting the data for further analysis trivial.
+Column names are single variables. Previously, each column contained many attributes about the measurement in the heading. e.g. ```tBodyAcc-mean()-X``` meant time domain, body component, accelerometer, mean, X axis. All of this information is now in its own column, manking subsetting the data for further analysis trivial.
 
 ### Using the script
 
 The included R script (run_analysis.R) can be used on the original data (linked above) to produce the tidy data.
 
-The script, when sourced, loads a function called run_analysis in to the environment. This function expects one parameter, a path to the 'UCI HAR Dataset' folder. By default, the function expects the this folder is a subfolder in the current working directory. 
+The script, when sourced, loads a function called run_analysis in to the environment. This function expects one parameter, a path to the ```'UCI HAR Dataset'``` folder. By default, the function expects the this folder is a subfolder in the current working directory. 
 
 e.g.
 ```
@@ -41,10 +41,10 @@ If this is not the case, you can provide a full or relative path to the dataet f
 
 For convenience, and to save time, it would be best to store  the return value from the function to a variable e.g.
 
-> data <- run_analysis()
+``` data <- run_analysis()
 
 ### Readind the tidy data set
 
 To read the tidy data set in R use the read.table command. e.g.
 
-> data <- read.table("tidy_data.txt", header=TRUE)
+``` data <- read.table("tidy_data.txt", header=TRUE)
