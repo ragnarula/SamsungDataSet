@@ -25,6 +25,7 @@ The included R script (run_analysis.R) can be used on the original data (linked 
 The script, when sourced, loads a function called run_analysis in to the environment. This function expects one parameter, a path to the 'UCI HAR Dataset' folder. By default, the function expects the this folder is a subfolder in the current working directory. 
 
 e.g.
+'''
 > Working Directory/
 > |    run_analysis.R
 > | 
@@ -34,7 +35,7 @@ e.g.
 >        |----test/
 >        |----train/
 >        ...
-
+'''
 If this is not the case, you can provide a full or relative path to the dataet folder.
 
 For convenience, and to save time, it would be best to store  the return value from the function to a variable e.g.
