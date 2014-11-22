@@ -14,7 +14,7 @@ Outlined below are the steps taken to tidy this data and some information on how
 5. The average for each combinaton of subject activity and variable was taken.
 6. The measurement name was factored out in to sperate variables so that each column contained only one variable.
 
-### Why this dats is tidy
+### Why this data is tidy
 
 Column names are single variables. Previously, each column contained many attributes about the measurement in the heading. e.g. ```tBodyAcc-mean()-X``` meant time domain, body component, accelerometer, mean, X axis. All of this information is now in its own column, manking subsetting the data for further analysis trivial.
 
