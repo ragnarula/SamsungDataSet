@@ -41,10 +41,14 @@ If this is not the case, you can provide a full or relative path to the dataet f
 
 For convenience, and to save time, it would be best to store  the return value from the function to a variable e.g.
 
-``` data <- run_analysis()
+```
+data <- run_analysis()
+```
 
 ### Readind the tidy data set
 
 To read the tidy data set in R use the read.table command. e.g.
 
-``` data <- read.table("tidy_data.txt", header=TRUE)
+``` 
+data <- read.table("tidy_data.txt", header=TRUE)
+```
